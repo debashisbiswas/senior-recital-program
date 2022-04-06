@@ -19,13 +19,3 @@
 .separator:not(:empty)::after {
 	margin-left: 1em;
 }
-
-.rwd-line {
-    display: block;
-}
-
-@media screen and (min-width: 420px) {
-    .rwd-line {
-        display: inline;
-    }
-}
