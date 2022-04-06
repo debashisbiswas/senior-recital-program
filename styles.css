@@ -8,7 +8,8 @@
 .separator::after {
 	content: '';
 	flex: 1;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid currentColor;
+    opacity: 0.25;
 }
 
 .separator:not(:empty)::before {
@@ -17,4 +18,14 @@
 
 .separator:not(:empty)::after {
 	margin-left: 1em;
+}
+
+.rwd-line {
+    display: block;
+}
+
+@media screen and (min-width: 420px) {
+    .rwd-line {
+        display: inline;
+    }
 }
