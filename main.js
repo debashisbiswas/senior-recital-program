@@ -12,9 +12,9 @@ programNotes.addEventListener('show.bs.modal', function (event) {
     var modalBody = programNotes.querySelector('.modal-body')
     switch(recipient) {
         case "kronodigger":
-            modalTitle.innerHTML = "Alexey Gorokholinsky's <i>Good Times</i>"
+            modalTitle.innerHTML = "Kronodigger's <i>Good Times</i>"
             modalBody.innerHTML = `
-Notes by Alexey Gorokholinsky
+Notes by the composer, Kronodigger (Alexey Gorokholinsky)
 (<a target="_blank" href="https://kronodigger.bandcamp.com/album/good-times">source</a>)
 <br><br>
 This album is comprised of the music that was composed between 2012 and 2017.
@@ -74,14 +74,19 @@ The renowned jazz clarinetist Benny Goodman asked Copland to compose a work for 
             break
 
         case "electro":
-            modalTitle.innerHTML = "Joshua Bennett's <i>Electroacoustic Etudes for Clarinet and Pure Data</i>"
-            modalBody.textContent = "Josh Bennett's notes will go here"
+            modalTitle.innerHTML = "Josh Bennett's <i>The Electroacoustic Etudes</i>"
+            modalBody.innerHTML = `
+Notes provided by the composer, Josh Bennett
+<br><br>
+The Electroacoustic Etudes developed over years of performing electronic music for my students and having them ask, “How do I do that??” While the clarinet has a rich cannon of electroacoustic music for performers to choose from, many of these pieces are difficult to perform, hard to find, or require expensive equipment and/or software purchases. And so The Electroacoustic Etudes were born to provide developing musicians the chance to learn electronic music, the basics of setting up and performing electronic music as a clarinet player, and, hopefully, provide some cool music that folks want to play as much as they want to hear it – all without “breaking the bank”. I hope you enjoy these pieces as much as I enjoyed making them, and if you want to learn more about what I do, please visit my webpage at
+<a target="_blank" href="https://WWW.BLACKAIRCLARI.NET">WWW.BLACKAIRCLARI.NET</a>.
+`
             break
 
         case "tzigane":
             modalTitle.innerHTML = "Valerie Coleman's <i>Tzigane</i>"
             modalBody.innerHTML = `
-Notes by Valerie Coleman
+Notes by the composer, Valerie Coleman
 (<a target="_blank" href="http://www.bccivicmusic.org/2018/02/imani-winds-program-notes/">source</a>)
 <br><br>
 Tzigane (not to be confused with Ravel’s famous violin work of the same name) is a new work for wind quintet by Valerie Coleman, that celebrates the virtuosity of each member within the ensemble. Written in the fall of 2011, Coleman was inspired by two occurrences: Imani Winds’ collaboration with Palestinian oud player Simon Shaheen, and her recent completion of ROMA, a work for wind ensemble celebrating the culture of the Romani people (commonly referred to as ‘gypsies’). The work itself represents the third installment within a series inspired by the combination of Romani and middle eastern styles, the first two being a nonet for wind quintet and strings, and the previously mentioned wind ensemble.
